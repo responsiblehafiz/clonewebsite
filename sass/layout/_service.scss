@@ -5,6 +5,9 @@
         padding: 30px;
         transition: .5s;
         margin-bottom: 30px;
+        &:hover{
+            transform: rotate(2deg);
+        }
         .icon{
             display: inline-block;
             i{

@@ -5900,7 +5900,7 @@ input.theme-btn {
   color: #1A5EFF;
 }
 
-#sticky-header {
+.header-section.sticky {
   left: 0;
   margin: auto;
   position: fixed !important;
@@ -6043,11 +6043,13 @@ input.theme-btn {
   text-transform: uppercase;
 }
 .brand-section .brand-list .single-brand-box .brand-thumb {
-  padding: 30px 60px;
+  padding: 30px;
 }
 .brand-section .brand-list .single-brand-box .brand-thumb img {
   width: 100%;
   height: 80px;
+  -o-object-fit: none;
+     object-fit: none;
 }
 
 .faq-section .faqs-container {
@@ -6384,6 +6386,9 @@ input.theme-btn {
   padding: 30px;
   transition: 0.5s;
   margin-bottom: 30px;
+}
+.service-section .single-service-box:hover {
+  transform: rotate(2deg);
 }
 .service-section .single-service-box .icon {
   display: inline-block;
