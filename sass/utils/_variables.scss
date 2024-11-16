@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+$white: #fff;
+$primary-color:#1A5EFF;
+$title-color: #202B38;
+$para-color: #424345;
+$black-color: #000000;
+$gray-100: gray;
+
+
+.white-clr{
+    color: $white !important;
+}
+
+.gry{
+    background: #202b38 !important;
+}
+
+.pmr{
+    background: $primary-color;
+}
+
+.p2{
+    font-size: 17px !important;
+}
+
+
+
+// $body-font: "Albert Sans", sans-serif;
+
+$body-font:  "Roboto", serif;
+
+
+
+
+

@@ -1,0 +1,100 @@
+.pricing-single-box{
+    padding: 5px;
+    background: $white;
+    border-radius: 30px; 
+    position: relative;
+    .pricing-box-top{
+        background: #f6f6f7;
+        padding: 25px;
+        border-radius: 30px;
+        overflow: hidden;
+        transition: .5s;
+        &:hover{
+            box-shadow: 0 0 6px rgba( 2, 2, 2);
+            transition: .5s;
+        }
+        h6{
+            font-size: 20px;
+            color: $para-color;
+        }
+        .fire{
+            color: #424345;
+            text-align: center;
+            display: inline-block;
+            font-weight: 500;
+            background: #1A5EFF;
+            border-radius: 20px;
+            padding: 0 10px;
+            color: #fff;
+            position: absolute;
+            top: 30px;
+            left: 70px;
+        }
+        h2{
+            font-size: 55px;
+            color: $title-color;
+            margin: 5px 0;
+        }
+        p{
+            color: $para-color;
+        }
+        .btn{
+            display: block;
+            background: $primary-color;
+            border-radius: 30px;
+            padding: 10px;
+            margin: 10px 0;
+            transition: .5s;
+            a{
+                color: #fff;
+                font-weight: 500;
+            }
+            &:hover{
+                background: $gray-100;
+            }
+        }
+        span{
+            color: $para-color;
+            text-align: center;
+            display: block;
+            font-weight: 500;
+            a{
+                color: $para-color;
+                transition: .5s;
+                &:hover{
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+    .pricing-midle{
+        padding: 20px;
+        ul{
+            li{
+                color: $para-color;
+                font-size: 18px;
+                font-weight: 500;
+                margin-bottom: 10px;
+                i{
+                    margin-right: 10px;
+                    color: $primary-color;
+                }
+            }
+        }
+        .pricing-btn{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #f6f6f7;
+            padding: 10px 20px;
+            border-radius: 20px;
+            margin-top: 20px;
+            a{
+                color: $para-color;
+            }
+            i{
+                color: $gray-100;
+            }
+        }
+    }
+}

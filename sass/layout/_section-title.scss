@@ -1,0 +1,44 @@
+.section-title{
+    margin-bottom: 40px;
+    h4{
+        color: $primary-color;
+        font-size: 18px;
+        font-weight: 400;
+        display: inline-block;
+        padding: 5px 10px;
+        border-radius: 10px;
+        background: $white;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    h2{
+        font-size: 54px;
+        color: $title-color;
+        span{
+            font-size: 54px;
+            color: $primary-color;
+        }
+    }
+    p{
+        font-size: 18px;
+        margin: 20px 0;
+    }
+    ul{
+        margin-bottom: 20px;
+        li{
+            color: $para-color;
+            font-size: 18px;
+            font-weight: 600;
+            i{
+                height: 20px;
+                width: 20px;
+                line-height: 20px;
+                text-align: center;
+                font-size: 14px;
+                border: 1px solid $gray-100;
+                border-radius: 50px;
+                margin-right: 10px;
+            }
+        }
+    }
+}

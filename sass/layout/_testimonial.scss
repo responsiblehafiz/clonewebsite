@@ -1,0 +1,43 @@
+.testimonial-section{
+    .testi-single-box{
+        padding: 30px;
+        position: relative;
+        background: $white;
+        border-radius: 10px;
+        .top {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 25px;
+            .thumb{
+                img{
+                    border-radius: 50%;
+                }
+            }
+            .title{
+                h6{
+                    color: $para-color;
+                    font-size: 20px;
+                    font-weight: 400px;
+                }
+                span{
+                    color: $gray-100;
+                }
+            }
+        }
+        .middle{
+            p{
+                margin-bottom: 40px;
+            }
+            ul{
+                li{
+                    display: inline-block;
+                    color: $primary-color;
+                    i{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

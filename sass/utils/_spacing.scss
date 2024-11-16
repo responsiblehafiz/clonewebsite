@@ -1,0 +1,207 @@
+/*----------------------------------------*/
+/*  1.3 Default Spacing
+/*----------------------------------------*/
+
+/*--
+    - Margin & Padding
+-----------------------------------------*/
+/*-- Margin Top --*/
+@for $i from 1 through 140 {
+    .mt-#{1 * $i}{margin-top: 1px * $i;}
+}
+/*-- Margin Bottom --*/
+@for $i from 1 through 140 {
+    .mb-#{1 * $i}{margin-bottom: 1px *$i;}
+}
+/*-- Margin Left --*/
+@for $i from 1 through 100 {
+    .ml-#{1 * $i}{margin-left: 1px * $i;}
+}
+
+/*-- Margin Right --*/
+@for $i from 1 through 100 {
+    .mr-#{1 * $i}{margin-right: 1px *$i;}
+}
+
+/*-- Padding Top --*/
+@for $i from 1 through 150 {
+    .pt-#{1 * $i}{padding-top: 1px *$i;}
+}
+
+/*-- Padding Bottom --*/
+@for $i from 1 through 150 {
+    .pb-#{1 * $i}{padding-bottom: 1px *$i;}
+}
+
+/*-- Padding Left --*/
+@for $i from 1 through 130 {
+    .pl-#{1 * $i}{padding-left: 1px *$i;}
+}
+
+/*-- Padding Right --*/
+@for $i from 1 through 100 {
+    .pr-#{1 * $i}{padding-right: 1px *$i;}
+}
+
+
+/*-- Padding Y (Top and Bottom) --*/
+@for $i from 1 through 150 {
+    .py-#{$i} {
+      padding-top: 1px * $i;
+      padding-bottom: 1px * $i;
+    }
+}
+
+// ============================================
+
+@media only screen and (min-width:0px) and (max-width:567px)  {
+    .pt-sm-5 { padding-top: 5px; }
+    .pt-sm-10 { padding-top: 10px; }
+    .pt-sm-15 { padding-top: 15px; }
+    .pt-sm-20 { padding-top: 20px; }
+    .pt-sm-25 { padding-top: 25px; }
+    .pt-sm-30 { padding-top: 30px; }
+    .pt-sm-35 { padding-top: 35px; }
+    .pt-sm-40 { padding-top: 40px; }
+    .pt-sm-45 { padding-top: 45px; }
+    .pt-sm-50 { padding-top: 50px; }
+    .pt-sm-55 { padding-top: 55px; }
+    .pt-sm-60 { padding-top: 60px; }
+    .pt-sm-65 { padding-top: 65px; }
+    .pt-sm-70 { padding-top: 70px; }
+    .pt-sm-75 { padding-top: 75px; }
+    .pt-sm-80 { padding-top: 80px; }
+    // padding-bottom
+    .pb-sm-5 { padding-bottom: 5px; }
+    .pb-sm-10 { padding-bottom: 10px; }
+    .pb-sm-15 { padding-bottom: 15px; }
+    .pb-sm-20 { padding-bottom: 20px; }
+    .pb-sm-25 { padding-bottom: 25px; }
+    .pb-sm-30 { padding-bottom: 30px; }
+    .pb-sm-35 { padding-bottom: 35px; }
+    .pb-sm-40 { padding-bottom: 40px; }
+    .pb-sm-45 { padding-bottom: 45px; }
+    .pb-sm-50 { padding-bottom: 50px; }
+    .pb-sm-55 { padding-bottom: 55px; }
+    .pb-sm-60 { padding-bottom: 60px; }
+    .pb-sm-65 { padding-bottom: 65px; }
+    .pb-sm-70 { padding-bottom: 70px; }
+    .pb-sm-75 { padding-bottom: 75px; }
+    .pb-sm-80 { padding-bottom: 80px; }
+
+    // pt and pb
+    .py-sm-5 { padding-top: 5px; padding-bottom: 5px; }
+    .py-sm-10 { padding-top: 10px; padding-bottom: 10px; }
+    .py-sm-15 { padding-top: 15px; padding-bottom: 15px; }
+    .py-sm-20 { padding-top: 20px; padding-bottom: 20px; }
+    .py-sm-25 { padding-top: 25px; padding-bottom: 25px; }
+    .py-sm-30 { padding-top: 30px; padding-bottom: 30px; }
+    .py-sm-35 { padding-top: 35px; padding-bottom: 35px; }
+    .py-sm-40 { padding-top: 40px; padding-bottom: 40px; }
+    .py-sm-45 { padding-top: 45px; padding-bottom: 45px; }
+    .py-sm-50 { padding-top: 50px; padding-bottom: 50px; }
+    .py-sm-55 { padding-top: 55px; padding-bottom: 55px; }
+    .py-sm-60 { padding-top: 60px; padding-bottom: 60px; }
+    .py-sm-65 { padding-top: 65px; padding-bottom: 65px; }
+    .py-sm-70 { padding-top: 70px; padding-bottom: 70px; }
+    .py-sm-75 { padding-top: 75px; padding-bottom: 75px; }
+    .py-sm-80 { padding-top: 80px; padding-bottom: 80px; }
+
+}
+
+
+
+@media only screen and (min-width:567px) and (max-width:991px) {
+    .pt-sm-5 { padding-top: 5px; }
+    .pt-sm-10 { padding-top: 10px; }
+    .pt-sm-15 { padding-top: 15px; }
+    .pt-sm-20 { padding-top: 20px; }
+    .pt-sm-25 { padding-top: 25px; }
+    .pt-sm-30 { padding-top: 30px; }
+    .pt-sm-35 { padding-top: 35px; }
+    .pt-sm-40 { padding-top: 40px; }
+    .pt-sm-45 { padding-top: 45px; }
+    .pt-sm-50 { padding-top: 50px; }
+    .pt-sm-55 { padding-top: 55px; }
+    .pt-sm-60 { padding-top: 60px; }
+    .pt-sm-65 { padding-top: 65px; }
+    .pt-sm-70 { padding-top: 70px; }
+    .pt-sm-75 { padding-top: 75px; }
+    .pt-sm-80 { padding-top: 80px; }
+}
+
+
+
+@media only screen and (min-width:567px) and (max-width:991px)  {
+    .py-sm-5 { padding-top: 5px; padding-bottom: 5px; }
+    .py-sm-10 { padding-top: 10px; padding-bottom: 10px; }
+    .py-sm-15 { padding-top: 15px; padding-bottom: 15px; }
+    .py-sm-20 { padding-top: 20px; padding-bottom: 20px; }
+    .py-sm-25 { padding-top: 25px; padding-bottom: 25px; }
+    .py-sm-30 { padding-top: 30px; padding-bottom: 30px; }
+    .py-sm-35 { padding-top: 35px; padding-bottom: 35px; }
+    .py-sm-40 { padding-top: 40px; padding-bottom: 40px; }
+    .py-sm-45 { padding-top: 45px; padding-bottom: 45px; }
+    .py-sm-50 { padding-top: 50px; padding-bottom: 50px; }
+    .py-sm-55 { padding-top: 55px; padding-bottom: 55px; }
+    .py-sm-60 { padding-top: 60px; padding-bottom: 60px; }
+    .py-sm-65 { padding-top: 65px; padding-bottom: 65px; }
+    .py-sm-70 { padding-top: 70px; padding-bottom: 70px; }
+    .py-sm-75 { padding-top: 75px; padding-bottom: 75px; }
+    .py-sm-80 { padding-top: 80px; padding-bottom: 80px; }
+    .py-sm-85 { padding-top: 85px; padding-bottom: 85px; }
+    .py-sm-90 { padding-top: 90px; padding-bottom: 90px; }
+    .py-sm-95 { padding-top: 80px; padding-bottom: 80px; }
+    .py-sm-100 { padding-top: 80px; padding-bottom: 80px; }
+    .py-sm-105 { padding-top: 80px; padding-bottom: 80px; }
+    .py-sm-110 { padding-top: 80px; padding-bottom: 80px; }
+}
+
+
+// media ========================================================
+
+@media (max-width:1199px){
+    .py-xx-5 { padding-top: 5px; padding-bottom: 5px; }
+    .py-xx-10 { padding-top: 10px; padding-bottom: 10px; }
+    .py-xx-15 { padding-top: 15px; padding-bottom: 15px; }
+    .py-xx-20 { padding-top: 20px; padding-bottom: 20px; }
+    .py-xx-25 { padding-top: 25px; padding-bottom: 25px; }
+    .py-xx-28 { padding-top: 28px; padding-bottom: 28px; }
+    .py-xx-30 { padding-top: 30px; padding-bottom: 30px; }
+    .py-xx-35 { padding-top: 35px; padding-bottom: 35px; }
+    .py-xx-40 { padding-top: 40px; padding-bottom: 40px; }
+    .py-xx-45 { padding-top: 45px; padding-bottom: 45px; }
+    .py-xx-50 { padding-top: 50px; padding-bottom: 50px; }
+    .py-xx-55 { padding-top: 55px; padding-bottom: 55px; }
+    .py-xx-60 { padding-top: 60px; padding-bottom: 60px; }
+    .py-xx-65 { padding-top: 65px; padding-bottom: 65px; }
+    .py-xx-70 { padding-top: 70px; padding-bottom: 70px; }
+    .py-xx-75 { padding-top: 75px; padding-bottom: 75px; }
+    .py-xx-80 { padding-top: 80px; padding-bottom: 80px; }
+    .py-xx-85 { padding-top: 85px; padding-bottom: 85px; }
+    .py-xx-90 { padding-top: 90px; padding-bottom: 90px; }
+    .py-xx-95 { padding-top: 95px; padding-bottom: 95px; }
+    .py-xx-100 { padding-top: 100px; padding-bottom: 100px; }
+}
+
+
+
+@media (max-width:991px){
+    .py-sm-5 { padding-top: 5px; padding-bottom: 5px; }
+    .py-sm-10 { padding-top: 10px; padding-bottom: 10px; }
+    .py-sm-15 { padding-top: 15px; padding-bottom: 15px; }
+    .py-sm-20 { padding-top: 20px; padding-bottom: 20px; }
+    .py-sm-24 { padding-top: 24px; padding-bottom: 24px; }
+    .py-sm-25 { padding-top: 25px; padding-bottom: 25px; }
+    .py-sm-30 { padding-top: 30px; padding-bottom: 30px; }
+    .py-sm-35 { padding-top: 35px; padding-bottom: 35px; }
+    .py-sm-40 { padding-top: 40px; padding-bottom: 40px; }
+    .py-sm-45 { padding-top: 45px; padding-bottom: 45px; }
+    .py-sm-50 { padding-top: 50px; padding-bottom: 50px; }
+    .py-sm-55 { padding-top: 55px; padding-bottom: 55px; }
+    .py-sm-60 { padding-top: 60px; padding-bottom: 60px; }
+    .py-sm-65 { padding-top: 65px; padding-bottom: 65px; }
+    .py-sm-70 { padding-top: 70px; padding-bottom: 70px; }
+    .py-sm-75 { padding-top: 75px; padding-bottom: 75px; }
+    .py-sm-80 { padding-top: 80px; padding-bottom: 80px; }
+}

@@ -1,0 +1,46 @@
+.service-section{
+    .single-service-box{
+        background-color: #fff;
+        border-radius: 30px;
+        padding: 30px;
+        transition: .5s;
+        margin-bottom: 30px;
+        .icon{
+            display: inline-block;
+            i{
+                color: $primary-color;
+                font-size: 30px;
+            }
+        }
+        .text{
+            h4{
+                color: $title-color;
+                margin: 20px 5px;
+            }
+            p{
+                font-size: 16px;
+            }
+            a{
+                color: $primary-color;
+                font-size: 18px;
+                font-weight: 500;
+                i{
+                    background: #E3E7FF;
+                    height: 30px;
+                    width: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    border-radius: 50%;
+                    transition: .5s;
+                }
+                &:hover i{
+                    margin-left: 10px;
+                }
+            }
+            
+        }
+    }
+}
+
+
+

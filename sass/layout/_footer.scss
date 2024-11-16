@@ -1,0 +1,83 @@
+.footer-section{
+        margin: 0px 210px;
+        border-radius: 30px;
+        background: $para-color;
+        .footer-bottom{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 50px;
+            .footer-social{
+                ul{
+                    li{
+                        display: inline-block;
+                        margin-left: 10px;
+                        a{
+                            width: 40px;
+                            height: 40px;
+                            line-height: 40px;
+                            text-align: center;
+                            display: inline-block;
+                            border: 1px solid $gray-100;
+                           border-radius: 50%;
+                           transition: .5s;
+                           i{
+                            color: $white;
+                           }
+                           &:hover{
+                            background-color: $primary-color;
+                           }
+                        }
+                    }
+                }
+            }
+            .content{
+                .logo{
+                    text-align: center;
+                    margin-bottom: 20px;
+                }
+                .text{
+                    h6{
+                        color: white;
+                        text-align: center;
+                    }
+                }
+            }
+            .nav{
+                ul{
+                    li{
+                        display: inline-block;
+                        margin-left: 20px;
+                        a{
+                            color: $white;
+                            &:hover{
+                                color: $primary-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+}
+
+.copyright-section{
+    .text {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        a{
+            color: $para-color;
+            transition: .5s;
+            &:hover{
+                color: $primary-color;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
